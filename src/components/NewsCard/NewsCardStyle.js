@@ -1,15 +1,11 @@
 import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
-  container: {
-    backgroundColor: 'red',
-    padding: 20,
-    margin: 20,
-    borderRadius: 10,
-  },
+  container: {},
   image: {},
   title: {
-    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 18,
   },
   description: {},
 });

@@ -8,13 +8,12 @@ const App = () => {
       <View>
         <FlatList
           data={newsData}
-          renderItem={
-            ({item}) => <NewsCard />
-            // <Text>{item.title}</Text>
-          }
+          renderItem={({item}) => (
+            // <NewsCard deniz={item} />
+            <NewsCard news={item} />
+          )}
         />
       </View>
-      <NewsCard />
     </SafeAreaView>
   );
 };
